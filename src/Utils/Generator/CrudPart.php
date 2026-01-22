@@ -311,7 +311,7 @@ public function getPiece4() {
 
     $this->piece4 ="<div class=\"min-[800px]:flex w-full\" x-data=\"admin(@this)\">
 
-  @livewire('saphir.sidebar',['allRoutes' => \$allRoutes, 'user' => \$user])
+  @livewire('saphir.sidebar',['allRoutes' => \$allRoutes, 'user' => \$user,'panel' => \$panel])
     
      <div class=\"min-h-[100vh] w-full min-w-[900px]  overflow-x-auto  bg-[#DFDFDF]\">
   
@@ -375,7 +375,7 @@ public function getPiece5() {
 
     $this->piece5 ="<div class=\"min-[800px]:flex w-full\">
 
-    @livewire('saphir.sidebar',['allRoutes' => \$allRoutes, 'user' => \$user])
+    @livewire('saphir.sidebar',['allRoutes' => \$allRoutes, 'user' => \$user,'panel' => \$panel])
 
      <div class=\"min-h-[100vh] w-full max-w-[1150px]  overflow-x-auto  bg-[#DFDFDF]\">
 
@@ -416,7 +416,7 @@ public function getPiece6() {
   }
   }\">
 
-    @livewire('saphir.sidebar',['allRoutes' => \$allRoutes, 'user' => \$user])
+    @livewire('saphir.sidebar',['allRoutes' => \$allRoutes, 'user' => \$user,'panel' => \$panel])
     
      <div class=\"min-h-[100vh] w-full max-w-[1150px]  overflow-x-auto  bg-[#DFDFDF]\">
        

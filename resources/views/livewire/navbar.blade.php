@@ -11,7 +11,7 @@
             </span>
         </div>
         <div class="h-[60px] w-full font-bold text-[26px] pt-[10px] ">
-            DASHBOARD
+            {{$panel}}
          </div>
          <div class="h-[60px] w-[60px] pt-[14px]" @click="showNavbar2=true">
         <span class="material-icons text-[30px]">

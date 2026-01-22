@@ -14,11 +14,13 @@ class Navbar extends Component
 
     public $allRoutes ;
     public $user ;
+    public $panel ;
 
-    public function mount($allRoutes,$user)
+    public function mount($allRoutes,$user,$panel)
     {
         $this->allRoutes = $allRoutes;
         $this->user = $user;
+        $this->panel = $panel;
     } 
 
     public function resetPagination()

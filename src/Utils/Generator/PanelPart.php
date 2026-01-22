@@ -18,6 +18,8 @@ use Livewire\Component;
 
 class Dashboard extends Component
 {
+    public \$panel = '$b' ;
+
     public function render()
     {
         
@@ -40,7 +42,7 @@ public function getPiece2() {
      
     $this->piece2   = "<div class=\"min-[800px]:flex w-full\" x-data=\"\">
 
-    @livewire('saphir.sidebar',['allRoutes' => \$allRoutes, 'user' => \$user])
+    @livewire('saphir.sidebar',['allRoutes' => \$allRoutes, 'user' => \$user,'panel' => \$panel])
      <div class=\"min-h-[100vh] w-full max-w-[1150px]  overflow-x-auto bg-[#ccc]\">
  
         @include('saphir::topBar')
