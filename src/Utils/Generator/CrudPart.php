@@ -177,6 +177,7 @@ class Create extends SaphirCreator
     public \$saphirModelTitle = \"$e\";
     public \$saphirModelClass = \"$f\";
     public \$saphirRouteListe = \"$g\";
+    public \$panel = \"$panel\";
     public \$saphirNullables = [];
     public \$saphirRecord = null;
     public \$saphirFields = ['name' => null];
@@ -258,6 +259,7 @@ class Edit extends SaphirUpdate
     public \$saphirModelTitle = \"$e\";
     public \$saphirModelClass = \"$f\";
     public \$saphirRouteListe = \"$g\";
+    public \$panel = \"$panel\";
     public \$saphirNullables = [];
     public \$saphirRecord = null;
     public \$saphirFields = ['name' => null];

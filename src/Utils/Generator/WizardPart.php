@@ -173,6 +173,7 @@ class Create extends WizardCreator
     public \$saphirModelTitle = \"$e\";
     public \$saphirModelClass = \"$f\";
     public \$saphirRouteListe = \"$g\";
+    public \$panel = \"$panel\";
     public \$saphirRecord = null;
     public \$saphirNullables = [];
     public \$saphirFields = ['name' => null,'city' => null];
@@ -267,6 +268,7 @@ class Edit extends WizardUpdate
     public \$saphirModelTitle = \"$e\";
     public \$saphirModelClass = \"$f\";
     public \$saphirRouteListe = \"$g\";
+    public \$panel = \"$panel\";
     public \$saphirRecord = null;
     public \$saphirNullables = [];
     public \$saphirFields = ['name' => null,'city' => null];
